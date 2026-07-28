@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congratulations!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="mainPage">
+  <h1>🎉 CONGRATULATIONS! 🎉</h1>
+
+  <h2>YOU HAVE JUST WON A <span class="green">GREEN LIGHTNING</span></h2>
+
+  <p class="claim">
+    YOU JUST NEED TO BE THE FIRST TO CLAIM
+  </p>
+
+  <a href="#" class="tiny-link" onclick="showTerms()">T&C</a>
+</div>
+
+<div class="container hidden" id="termsPage">
+  <h1>Terms and Conditions</h1>
+
+  <ol>
+    <li>You need to be a human to claim.</li>
+    <li>You need to be above the age of 1.</li>
+    <li>You need to claim within 5 minutes of sending the message.</li>
+  </ol>
+
+  <button onclick="goBack()">← Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
